@@ -11,7 +11,7 @@
 |  5  | **[Survey form](https://bekzhanovrasul.github.io/Survey-form/)**                                                 | `Completed`   |
 |  6  | **[Rothko painting](https://bekzhanovrasul.github.io/Rothko-painting/)**                                         | `Completed`   |
 |  7  | **[Photo Gallery](https://bekzhanovrasul.github.io/photo-gallery/)**                                             | `Completed`   |
-|  8  | Nutrition Label                                                                                                  | `In progress` |
+|  8  | **[Nutrition Label](https://bekzhanovrasul.github.io/NutritionFacts/)**                                          | `Completed`   |
 |  9  | Quiz                                                                                                             | `Not started` |
 | 10  | Tribute page                                                                                                     | `Not started` |
 | 11  | Balance Sheet                                                                                                    | `Not started` |
