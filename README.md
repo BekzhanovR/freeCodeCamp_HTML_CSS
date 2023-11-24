@@ -1,4 +1,4 @@
-<h2 aling="center">HTML and CSS</h2>
+<h2 align="center">HTML and CSS</h2>
 <h2 align="center">Projects</h2>
 
 | S/N | Name                                                                                                             | Status        |
