@@ -11,8 +11,8 @@
 |  6  | **[Rothko painting](https://bekzhanovrasul.github.io/Rothko-painting/)**                                         | `Completed`   |
 |  7  | **[Photo Gallery](https://bekzhanovrasul.github.io/photo-gallery/)**                                             | `Completed`   |
 |  8  | **[Nutrition Label](https://bekzhanovrasul.github.io/NutritionFacts/)**                                          | `Completed`   |
-|  9  | **[Quiz](https://bekzhanovrasul.github.io/QUIZ/)**                                                                                                             | `Not started` |
-| 10  | Tribute page                                                                                                     | `Not started` |
+|  9  | **[Quiz](https://bekzhanovrasul.github.io/QUIZ/)**                                                               | `Completed`   |
+| 10  | Tribute page                                                                                                     | `In progress` |
 | 11  | Balance Sheet                                                                                                    | `Not started` |
 | 12  | Cat Painting                                                                                                     | `Not started` |
 | 13  | Piano                                                                                                            | `Not started` | 
