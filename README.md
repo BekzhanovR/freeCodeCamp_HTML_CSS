@@ -12,8 +12,8 @@
 |  7  | **[Photo Gallery](https://bekzhanovrasul.github.io/photo-gallery/)**                                             | `Completed`   |
 |  8  | **[Nutrition Label](https://bekzhanovrasul.github.io/NutritionFacts/)**                                          | `Completed`   |
 |  9  | **[Quiz](https://bekzhanovrasul.github.io/QUIZ/)**                                                               | `Completed`   |
-| 10  | Tribute page                                                                                                     | `In progress` |
-| 11  | Balance Sheet                                                                                                    | `Not started` |
+| 10  | **[Tribute page](https://bekzhanovrasul.github.io/Tribute-page/)**                                               | `Completed`   |
+| 11  | Balance Sheet                                                                                                    | `In progress` |
 | 12  | Cat Painting                                                                                                     | `Not started` |
 | 13  | Piano                                                                                                            | `Not started` | 
 | 14  | Technical Documentation Page                                                                                     | `Not started` |
