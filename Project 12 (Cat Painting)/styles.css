@@ -174,4 +174,33 @@ body{
     position: absolute;
     top: 127px;
     left: 52px;
+    transform: rotate(3deg);
+}
+
+.cat-whisker-left-bottom{
+    position: absolute;
+    top: 134px;
+    left: 52px;
+    transform: rotate(-3deg);
+}
+
+.cat-whisker-right-top{
+    position: absolute;
+    top: 120px;
+    left: 109px;
+    transform: rotate(-10deg);
+}
+
+.cat-whisker-right-middle{
+    position: absolute;
+    top: 127px;
+    left: 109px;
+    transform: rotate(-3deg);
+}
+
+.cat-whisker-right-bottom{
+    position: absolute;
+    top: 134px;
+    left: 109px;
+    transform: rotate(3deg);
 }
