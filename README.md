@@ -15,7 +15,7 @@
 | 10  | **[Tribute page](https://bekzhanovrasul.github.io/Tribute-page/)**                                               | `Completed`   |
 | 11  | **[Balance Sheet](https://bekzhanovrasul.github.io/Balance-Sheet/)**                                             | `Completed`   |
 | 12  | **[Cat Painting](https://bekzhanovrasul.github.io/Cat-Painting/)**                                               | `Completed`   |
-| 13  | Piano                                                                                                            | `In progress` | 
+| 13  | **[Piano](https://bekzhanovrasul.github.io/Piano/)**                                                             | `Completed`   | 
 | 14  | Technical Documentation Page                                                                                     | `Not started` |
 | 15  | City Skyline                                                                                                     | `Not started` |
 | 16  | Magazine                                                                                                         | `Not started` | 
