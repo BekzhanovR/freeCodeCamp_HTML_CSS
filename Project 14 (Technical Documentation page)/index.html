@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- === -->
+
+    <title>Technical Documentation Page</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>JS hujjatlari</header>
+        <ul>
+            <li>
+                <a href="#Intro">Kirish</a>
+            </li>
+            <li>
+                <a href="#what_you_should_already_know">Siz allaqachon bilishingiz kerak bo'lgan narsa</a>
+            </li>
+            <li>
+                <a href="#javascript_and_java">JavaScript va Java</a>
+            </li>
+            <li>
+                <a href="#hello_world">Salom dunyo</a>
+            </li>
+            <li>
+                <a href="#variables">O'zgaruvchilar</a>
+            </li>
+            <li>
+                <a href="#Declaring_variables">O'zgaruvchilarni e'lon qilish</a>
+            </li>
+            <li>
+                <a href="#variable_scope">O'zgaruvchan doira</a>
+            </li>
+            <li>
+                <a href="#global_variables">Global o'zgaruvchilar</a>
+            </li>
+            <li>
+                <a href="#constants">Konstantalar</a>
+            </li>
+            <li>
+                <a href="#data-types">Ma'lumotlar turlari</a>
+            </li>
+            <li>
+                <a href="#if_else">If-else bayonoti</a>
+            </li>
+            <li>
+                <a href="#while">While bayonoti</a>
+            </li>
+            <li>
+                <a href="#Function_declarations">Funktsiya deklaratsiyasi</a>
+            </li>
+            <li>
+                <a href="#Reference">Malumot</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Intro">
+            <header>Kirish</header>
+            <div class="content">
+                <p>JavaScript oʻzaro platformali, obyektga yoʻnaltirilgan skript tilidir. Bu kichik va engil til. Xost muhitida (masalan, veb-brauzer) JavaScript-ni o'z muhiti ob'ektlari ustidan dasturiy boshqaruvni ta'minlash uchun ulash mumkin.</p>
+                <p>JavaScript-da Array, Date va Math kabi ob'ektlarning standart kutubxonasi va operatorlar, boshqaruv tuzilmalari va bayonotlar kabi til elementlarining asosiy to'plami mavjud. Asosiy JavaScript-ni qo'shimcha ob'ektlar bilan to'ldirish orqali turli maqsadlar uchun kengaytirilishi mumkin; masalan:</p>
+                <ul>
+                    <li>Mijoz tomoni JavaScript brauzerni va uning Hujjat Ob'ekt Modelini (DOM) boshqarish uchun ob'ektlarni taqdim etish orqali asosiy tilni kengaytiradi. Masalan, mijoz tomoni kengaytmalari dasturga elementlarni HTML formasiga joylashtirish va sichqonchani bosish, shakl kiritish va sahifa navigatsiyasi kabi foydalanuvchi hodisalariga javob berishga imkon beradi.</li><br>
+                    <li>Server tomonidagi JavaScript serverda JavaScript-ni ishga tushirish uchun tegishli ob'ektlarni taqdim etish orqali asosiy tilni kengaytiradi. Masalan, server tomoni kengaytmalari ilovaga ma'lumotlar bazasi bilan aloqa qilish imkonini beradi, dasturning bir chaqiruvidan ikkinchisiga ma'lumotlarning uzluksizligini ta'minlaydi yoki serverda fayllar bilan ishlashni amalga oshiradi.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-section" id="what_you_should_already_know">
+            <header>Siz allaqachon bilishingiz kerak bo'lgan narsa</header>
+            <div class="content">
+                <p>Ushbu qo'llanma sizda quyidagi asosiy ma'lumotlarga ega ekanligingizni taxmin qiladi:</p>
+                <ul>
+                    <li>Internet va World Wide Web (WWW) haqida umumiy tushuncha.</li><br>
+                    <li>HyperText Markup Language (HTML) bo‘yicha yaxshi ish bilimi.</li><br>
+                    <li>Ba'zi dasturlash tajribasi. Agar siz dasturlashda yangi bo'lsangiz, JavaScript haqida asosiy sahifada havola qilingan o'quv qo'llanmalaridan birini sinab ko'ring.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-section" id="javascript_and_java">
+            <header>JavaScript va Java</header>
+            <div class="content">
+                <p>JavaScript va Java ba'zi jihatdan o'xshash, ammo ba'zilarida tubdan farq qiladi. JavaScript tili Java-ga o'xshaydi, lekin Java-ning statik yozish va kuchli turdagi tekshiruvi mavjud emas. JavaScript ko'pgina Java ifodasi sintaksisiga, nomlash qoidalariga va asosiy boshqaruv oqimi konstruksiyalariga amal qiladi, bu uning LiveScript-dan JavaScript-ga qayta nomlanishiga sabab bo'lgan.</p>
+                <p>Java-ning deklaratsiyalar bo'yicha tuzilgan kompilyatsiya vaqtidagi sinflar tizimidan farqli o'laroq, JavaScript raqamli, mantiqiy va satr qiymatlarini ifodalovchi oz sonli ma'lumotlar turlariga asoslangan ish vaqti tizimini qo'llab-quvvatlaydi. JavaScript-da keng tarqalgan sinfga asoslangan ob'ekt modeli o'rniga prototipga asoslangan ob'ekt modeli mavjud. Prototipga asoslangan model dinamik merosni ta'minlaydi; ya'ni meros bo'lgan narsa alohida ob'ektlar uchun farq qilishi mumkin. JavaScript, shuningdek, hech qanday maxsus deklarativ talablarsiz funksiyalarni qo'llab-quvvatlaydi. Funktsiyalar erkin terilgan usullar sifatida bajariladigan ob'ektlarning xossalari bo'lishi mumkin.</p>
+                <p>JavaScript Java bilan solishtirganda juda erkin shaklli tildir. Barcha o'zgaruvchilar, sinflar va usullarni e'lon qilishingiz shart emas. Usullarning umumiy, shaxsiy yoki himoyalanganligi haqida tashvishlanishingiz shart emas va interfeyslarni amalga oshirishingiz shart emas. O'zgaruvchilar, parametrlar va funktsiyani qaytarish turlari aniq yozilmagan.</p>
+            </div>
+        </section>
+        <section class="main-section" id="hello_world">
+            <header>Salom Dunyo</header>
+            <div class="content">
+                <p>JavaScript yozishni boshlash uchun Scratchpad-ni oching va birinchi "Salom dunyo" JavaScript kodingizni yozing: </p>
+                <code>function greetMe(yourName) { alert("Hello " + yourName); } <br>
+                greetMe("World");</code>
+                <p>Kodni brauzeringizda ko'rish uchun paneldagi kodni tanlang va Ctrl+R tugmalarini bosing!</p>
+            </div>
+        </section>
+        <section class="main-section" id="variables">
+            <header>O'zgaruvchilar</header>
+            <div class="content">
+                <p>Siz o'zgaruvchilardan ilovangizdagi qiymatlar uchun ramziy nom sifatida foydalanasiz. Identifikatorlar deb ataladigan o'zgaruvchilarning nomlari ma'lum qoidalarga mos keladi.</p>
+                <p>JavaScript identifikatori harf, pastki chiziq (_) yoki dollar belgisi ($) bilan boshlanishi kerak; keyingi belgilar ham raqamlar bo'lishi mumkin (0-9). JavaScript katta-kichik harflarga sezgir bo'lganligi sababli, harflar "A" dan "Z"gacha (katta harf) va "a" dan "z"gacha (kichik harf) belgilarni o'z ichiga oladi.</p>
+                <p>Identifikatorlarda ISO 8859-1 yoki å va ü kabi Unicode harflaridan foydalanishingiz mumkin. Unicode qochish ketma-ketliklarini identifikatorlarda belgilar sifatida ham ishlatishingiz mumkin. Yuridik nomlarning ba'zi misollari: Number_hits, temp99 va _name.</p>
+            </div>
+        </section>
+        <section class="main-section" id="Declaring_variables">
+            <header>O'zgaruvchilarni e'lon qilish</header>
+            <div class="content">
+                <p>O'zgaruvchini uchta usulda e'lon qilishingiz mumkin:</p>
+                <p>var kalit so'zi bilan. Masalan,</p>
+                <code>var x = 42.</code>
+                <p>Ushbu sintaksis mahalliy va global o'zgaruvchilarni e'lon qilish uchun ishlatilishi mumkin.</p>
+                <p>Unga oddiygina qiymat berish orqali. Masalan,</p>
+                <code>x = 42.</code>
+                <p>Bu har doim global o'zgaruvchini e'lon qiladi. Bu qattiq JavaScript ogohlantirishini yaratadi. Siz bu variantni ishlatmasligingiz kerak.</p>
+                <p>Let kalit so'zi bilan. Masalan,</p>
+                <code>let y = 13.</code>
+                <p>Ushbu sintaksis blok doirasi mahalliy o'zgaruvchisini e'lon qilish uchun ishlatilishi mumkin. Quyidagi o'zgaruvchan doiraga qarang.</p>
+            </div>
+        </section>
+        <section class="main-section" id="variable_scope">
+            <header>O'zgaruvchan doira</header>
+            <div class="content">
+                <p>Har qanday funktsiyadan tashqarida o'zgaruvchini e'lon qilganingizda, u global o'zgaruvchi deb ataladi, chunki u joriy hujjatdagi istalgan boshqa kod uchun mavjud. Funktsiya ichida o'zgaruvchini e'lon qilganingizda, u mahalliy o'zgaruvchi deb ataladi, chunki u faqat shu funktsiya ichida mavjud.</p>
+                <p>ECMAScript 2015 dan oldingi JavaScript blok bayonot doirasiga ega emas; aksincha, blok ichida e'lon qilingan o'zgaruvchi blokda joylashgan funktsiya (yoki global qamrov) uchun lokaldir. Misol uchun, quyidagi kod log 5 bo'ladi, chunki x doirasi blok emas, balki x e'lon qilingan funksiya (yoki global kontekst) bo'lib, bu holda if ko'rsatmasi hisoblanadi.</p>
+                <code>if (true) { var x = 5; } console.log(x); // 5</code>
+                <p>ECMAScript 2015 da kiritilgan let deklaratsiyasidan foydalanganda bu xatti-harakat o'zgaradi.</p>
+                <code>if (true) { let y = 5; } console.log(y); <br> // ReferenceError: y is not defined </code>
+            </div>
+        </section>
+        <section class="main-section" id="global_variables">
+            <header>Global o'zgaruvchilar</header>
+            <div class="content">
+                <p>Global o'zgaruvchilar aslida global ob'ektning xususiyatlari. Veb-sahifalarda global obyekt oynadir, shuning uchun siz window.variable sintaksisi yordamida global o'zgaruvchilarni o'rnatishingiz va ularga kirishingiz mumkin.</p>
+                <p>Shunday qilib, bir oyna yoki ramkada e'lon qilingan global o'zgaruvchilarga oyna yoki ramka nomini ko'rsatish orqali boshqa oyna yoki ramkadan kirishingiz mumkin. Misol uchun, agar hujjatda phoneNumber deb nomlangan o'zgaruvchi e'lon qilingan bo'lsa, iframe'dan ushbu o'zgaruvchiga parent.phoneNumber sifatida murojaat qilishingiz mumkin.</p>
+            </div>
+        </section>
+        <section class="main-section" id="constants">
+            <header>Konstantalar</header>
+            <div class="content">
+                <p>Const kalit so'zi bilan faqat o'qish uchun mo'ljallangan konstantani yaratishingiz mumkin. Doimiy identifikatorning sintaksisi o'zgaruvchi identifikatori bilan bir xil: u harf, pastki chiziq yoki dollar belgisi bilan boshlanishi kerak va alfavit, raqamli yoki pastki chiziq belgilaridan iborat bo'lishi mumkin.</p>
+                <code>const PI = 3.14</code>
+                <p>Skript ishlayotgan vaqtda doimiy qiymatni belgilash orqali o'zgartira olmaydi yoki qayta e'lon qilinishi mumkin emas. U qiymatga ishga tushirilishi kerak.</p>
+                <p>Konstantalar uchun qamrov qoidalari ruxsat bloki doirasi o'zgaruvchilari bilan bir xil. Agar const kalit so'zi o'tkazib yuborilsa, identifikator o'zgaruvchini ifodalaydi deb taxmin qilinadi.</p>
+                <p>Siz bir xil nomdagi funktsiya yoki o'zgaruvchi bilan bir xil doiradagi doimiyni e'lon qila olmaysiz. Masalan:</p>
+                <code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; <br>
+                    // THIS WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g; <br>
+                    //statements }</code>
+                <p>Biroq, ob'ekt atributlari himoyalanmagan, shuning uchun quyidagi bayonot muammosiz bajariladi.</p>
+                <code>const MY_OBJECT = {"key": "value"}; <br> MY_OBJECT.key = "otherValue";</code>
+            </div>
+        </section>
+        <section class="main-section" id="data_types">
+            <header>Ma'lumotlar turlari</header>
+            <div class="content">
+                <p>Eng so'nggi ECMAScript standarti ettita ma'lumot turini belgilaydi:</p>
+                <ul>
+                    <li>Primitiv bo'lgan oltita ma'lumot turi:</li><br>
+                    <ul>
+                        <li>Boolean. rost va yolg'on.</li><br>
+                        <li>null. Null qiymatni bildiruvchi maxsus kalit so'z. JavaScript katta-kichik harflarni sezgir bo'lgani uchun null Null, NULL yoki boshqa variantlar bilan bir xil emas.</li><br>
+                        <li>undefined. Qiymati aniqlanmagan yuqori darajadagi xususiyat.</li><br>
+                        <li>Number. 42 yoki 3.14159.</li><br>
+                        <li>String. "Salom"</li><br>
+                        <li>Symbol (ECMAScript 2015 da yangi). Namunalari noyob va o'zgarmas bo'lgan ma'lumotlar turi.</li><br>
+                    </ul>
+                    <li>va Obeyktlar</li>
+                </ul>
+                <p>Ushbu ma'lumotlar turlari nisbatan kichik bo'lsa-da, ular ilovalaringiz bilan foydali funktsiyalarni bajarishga imkon beradi. Ob'ektlar va funktsiyalar tilning boshqa asosiy elementlari hisoblanadi. Ob'ektlarni qiymatlar uchun nomlangan konteynerlar va funktsiyalarni ilovangiz bajaradigan protseduralar sifatida ko'rishingiz mumkin.</p>
+            </div>
+        </section>
+        <section class="main-section" id="if_else">
+            <header>If-else bayonoti</header>
+            <div class="content">
+                <p>Agar mantiqiy shart rost bo'lsa, ifodani bajarish uchun if operatoridan foydalaning. Agar shart noto'g'ri bo'lsa, bayonotni bajarish uchun ixtiyoriy else bandidan foydalaning. If iborasi quyidagicha ko'rinadi:</p>
+                <code>if (condition) { statement_1; } else { statement_2; }</code>
+                <p>shart rost yoki noto'g'ri deb baholanadigan har qanday ifoda bo'lishi mumkin. To'g'ri va noto'g'ri deb baholanadigan narsalarni tushuntirish uchun Booleanga qarang. Agar shart rost deb baholansa, operator_1 bajariladi; aks holda, operator_2 bajariladi. bayonot_1 va bayonot_2 har qanday bayonot bo'lishi mumkin, shu jumladan keyingi o'rnatilgan if iboralari.</p>
+                <p>Bundan tashqari, bir nechta shartlarni ketma-ket sinovdan o'tkazish uchun else if dan foydalanib, quyidagi tarzda ifodalarni birlashtirishingiz mumkin:</p>
+                <code>if (condition_1) { statement_1; } else if (condition_2) {
+                    statement_2; } else if (condition_n) { statement_n; } else {
+                    statement_last; }</code>
+            </div>
+        </section>
+        <section class="main-section" id="while">
+            <header>While bayonoti</header>
+            <div class="content">
+                <p>While bayoni belgilangan shart rost deb baholanguncha o'z bayonotlarini bajaradi. while bayonoti quyidagicha ko'rinadi:</p>
+                <code>while (condition) statement</code>
+                <p>Agar shart noto'g'ri bo'lsa, sikl ichidagi operator bajarilishini to'xtatadi va boshqaruv tsikldan keyingi operatorga o'tadi.</p>
+                <p>Shart sinovi tsikldagi bayonot bajarilishidan oldin sodir bo'ladi. Agar shart rost bo'lsa, bayonot bajariladi va shart yana sinovdan o'tkaziladi. Agar shart noto'g'ri bo'lsa, bajarish to'xtaydi va boshqaruv bir vaqtning o'zida keyingi bayonotga o'tkaziladi.</p>
+                <p>Bir nechta iboralarni bajarish uchun ushbu bayonotlarni guruhlash uchun blok bayonotidan ({ ... }) foydalaning.</p>
+                <p>Misol:</p>
+                <p>Quyidagi while tsikli n uchtadan kichik bo'lganda takrorlanadi:</p>
+                <code>var n = 0; var x = 0; while (n < 3) { n++; x += n; }</code>
+                <p>Har bir iteratsiya bilan tsikl n ni oshiradi va bu qiymatni x ga qo'shadi. Shunday qilib, x va n quyidagi qiymatlarni qabul qiladi:</p>
+                <ul>
+                    <li>Birinchi o'tishdan keyin: n = 1 va x = 1</li>
+                    <li>Ikkinchi o'tishdan keyin: n = 2 va x = 3</li>
+                    <li>Uchinchi o'tishdan keyin: n = 3 va x = 6</li>
+                </ul>
+                <p>Uchinchi o'tishni tugatgandan so'ng, n < 3 sharti endi to'g'ri emas, shuning uchun tsikl tugaydi.</p>
+            </div>
+        </section>
+        <section class="main-section" id="Function_declarations">
+            <header>Funktsiya deklaratsiyasi</header>
+            <div class="content">
+                <p>Funktsiya ta'rifi (funktsiya deklaratsiyasi yoki funktsiya bayonoti deb ham ataladi) funktsiya kalit so'zidan iborat bo'lib, undan keyin:</p>
+                <ul>
+                    <li>Funktsiya nomi.</li>
+                    <li>Qavslar ichiga olingan va vergul bilan ajratilgan funktsiyaga argumentlar ro'yxati.</li>
+                    <li>Funktsiyani belgilaydigan JavaScript iboralari jingalak qavslar ichida { }.</li>
+                </ul>
+                <p>Masalan, quyidagi kod kvadrat nomli oddiy funktsiyani belgilaydi:</p>
+                <code>function square(number) { return number * number; }</code>
+                <p>Funktsiya kvadrati raqam deb ataladigan bitta argumentni oladi. Funktsiya argumentini (ya'ni raqamni) o'ziga ko'paytirilishini aytadigan bitta bayonotdan iborat. Qaytish bayonoti funksiya tomonidan qaytarilgan qiymatni belgilaydi.</p>
+                <code>return number * number;</code>
+                <p>Funktsiyalarga ibtidoiy parametrlar (masalan, raqam) qiymat bo'yicha uzatiladi; qiymat funksiyaga uzatiladi, lekin funksiya parametr qiymatini o‘zgartirsa, bu o‘zgarish global miqyosda yoki chaqiruvchi funksiyada aks ettirilmaydi.</p>
+            </div>
+        </section>
+        <section class="main-section" id="Reference">
+            <header>Malumot</header>
+            <div class="content">
+                <ul>
+                    <li>Ushbu sahifadagi barcha hujjatlar <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a> dan olingan</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
