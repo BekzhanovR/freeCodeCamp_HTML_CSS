@@ -16,8 +16,8 @@
 | 11  | **[Balance Sheet](https://bekzhanovrasul.github.io/Balance-Sheet/)**                                             | `Completed`   |
 | 12  | **[Cat Painting](https://bekzhanovrasul.github.io/Cat-Painting/)**                                               | `Completed`   |
 | 13  | **[Piano](https://bekzhanovrasul.github.io/Piano/)**                                                             | `Completed`   | 
-| 14  | Technical Documentation Page                                                                                     | `In progress` |
-| 15  | City Skyline                                                                                                     | `Not started` |
+| 14  | **[Technical Documentation Page](https://bekzhanovrasul.github.io/Technical-documentation-page/)**               | `Completed`   |
+| 15  | City Skyline                                                                                                     | `In progress` |
 | 16  | Magazine                                                                                                         | `Not started` | 
 | 17  | Product landing page                                                                                             | `Not started` |
 | 18  | Ferris Wheel                                                                                                     | `Not started` |
