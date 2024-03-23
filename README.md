@@ -18,7 +18,7 @@
 | 13  | **[Piano](https://bekzhanovrasul.github.io/Piano/)**                                                             | `Completed`   | 
 | 14  | **[Technical Documentation Page](https://bekzhanovrasul.github.io/Technical-documentation-page/)**               | `Completed`   |
 | 15  | **[City Skyline](https://bekzhanovrasul.github.io/City-skyline/)**                                               | `Completed`   |
-| 16  | Magazine                                                                                                         | `Not started` | 
+| 16  | **[Magazine](https://bekzhanovrasul.github.io/Magazine/)**                                                       | `Completed`   | 
 | 17  | Product landing page                                                                                             | `Not started` |
 | 18  | Ferris Wheel                                                                                                     | `Not started` |
 | 19  | Penguin                                                                                                          | `Not started` |
