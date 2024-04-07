@@ -20,6 +20,6 @@
 | 15  | **[City Skyline](https://bekzhanovrasul.github.io/City-skyline/)**                                               | `Completed`   |
 | 16  | **[Magazine](https://bekzhanovrasul.github.io/Magazine/)**                                                       | `Completed`   | 
 | 17  | **[Product landing page](https://bekzhanovrasul.github.io/Product-landing-page/)**                               | `Completed`   |
-| 18  | Ferris Wheel                                                                                                     | `Not started` |
+| 18  | **[Ferris Wheel](https://github.com/BekzhanovRasul/Ferris-Wheel)**                                               | `Completed`   |
 | 19  | Penguin                                                                                                          | `Not started` |
 | 20  | Portfolio Webpage                                                                                                | `Not started` |
