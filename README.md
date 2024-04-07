@@ -21,5 +21,5 @@
 | 16  | **[Magazine](https://bekzhanovrasul.github.io/Magazine/)**                                                       | `Completed`   | 
 | 17  | **[Product landing page](https://bekzhanovrasul.github.io/Product-landing-page/)**                               | `Completed`   |
 | 18  | **[Ferris Wheel](https://bekzhanovrasul.github.io/Ferris-Wheel)**                                                | `Completed`   |
-| 19  | Penguin                                                                                                          | `Not started` |
+| 19  | Penguin                                                                                                          | `In progress` |
 | 20  | Portfolio Webpage                                                                                                | `Not started` |
