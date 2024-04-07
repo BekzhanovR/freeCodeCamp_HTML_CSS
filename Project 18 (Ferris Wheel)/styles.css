@@ -99,9 +99,12 @@
 @keyframes cabin {
     0%{
         transform: rotate(0deg);
+    }25%{
         background-color: yellow;
     }50%{
         background-color: purple;
+    }75%{
+        background-color: yellow;
     }100%{
         transform: rotate(-360deg);
     }
